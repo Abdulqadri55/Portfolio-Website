@@ -1,0 +1,248 @@
+    /*import fonts ffrom font.css*/
+    
+    @import url(./font.css);
+    /* css variables */
+    
+    @import url(./_variables.css);
+    /* import global  styling */
+    
+    @import url(./_global.css);
+    /*start navigation*/
+    
+     :root {
+        --primary-color: #091248;
+        --primary-color2: #8545f8;
+        --title-color: #141213;
+        --text-color: #777777;
+        --border-color: #201f1f17;
+        --gradient-color: linear-gradient(90deg, #445644 0%, green 100%);
+        --shadow-color: 0px 10px 30px rgb(10, 86, 10);
+        --box-shadow: 0px 5px 15px rgb(17, 61, 15);
+        /* font family variables */
+        --roboto: 'Roboto'cursive;
+    }
+    
+    ;
+    vv .header_area .main-menu .navbar .navbar-brand {
+        padding: 0 2rem 0 5rem
+    }
+    
+    .header_area .main-menu .navbar {
+        padding: 1rem 20rem;
+    }
+    
+    .header_area .main-menu .navbar .navbar-toggler {
+        color: grey;
+    }
+    
+    .header_area .main-menu .navbar .navbar-toggler.navbar-toggler-icon {
+        color: grey;
+    }
+    
+    .header_area .main-menu .nav-item .nav-link {
+        font: normal 500 15px/2px var(--roboto);
+        text-transform: uppercase;
+        padding: 1.7rem;
+        color: var(--title-color);
+    }
+    /*end navigation*/
+    /* Banner Area */
+    
+    .site-main .site-banner {
+        background: no-repeat 0% 50%;
+    }
+    
+    .site-main .site-main .site-title h3 {
+        padding-top: 35%;
+        font-weight: 500;
+    }
+    
+    .site-main .site-banner .site-title h3::after {
+        content: '';
+        height: 2px;
+        width: 18vw;
+        background: black;
+        display: inline-block;
+        margin-left: 5%;
+        transform: translateY(-10px);
+    }
+    
+    .site-main .site-banner .site-title h4 {
+        font-size: 5rem;
+    }
+    
+    .site-main .site-banner .site-title h4 {
+        font-size: 1.5rem;
+    }
+    
+    .site-main .site-banner .banner-image>img {
+        padding: 2rem 0;
+    }
+    /* end Banner Area */
+    /* start about area */
+    
+    .site-main .about-area {
+        padding: 8rem 5rem;
+    }
+    
+    .site-main .about-area .about-title h2>span {
+        display: block;
+        font: normal bold 49px/60px var(--roboto);
+        letter-spacing: 15px;
+    }
+    
+    .site-main .about-area .about-title .paragraph>p {
+        padding: .4rem 0;
+    }
+    
+    .about-area .call-area .call-now span {
+        display: block;
+        filter: brightness(0.15);
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .about-area .call-area .call-now a {
+        text-decoration-style: dashed;
+    }
+    /* services area */
+    
+    .site-main .services-area {
+        padding: 7rem 2rem;
+    }
+    
+    .site-main .services-area .services-title {
+        padding: 0 14rem;
+    }
+    
+    .site-main .services-area .services-title h1 {
+        font-size: 35px;
+    }
+    
+    .site-main>.services-area .services {
+        background: rgba(233, 236, 236, 0.973);
+        padding: 2rem 0;
+        width: 16rem;
+        margin: 5rem .5rem;
+        transition: box-shadow .7s ease;
+    }
+    
+    .site-main>.services-area .services:hover {
+        box-shadow: var(--box-shadow);
+    }
+    /* services area */
+    /* About me */
+    
+    .site-main .about-area .about-title p {
+        padding: 1rem 7rem;
+    }
+    
+    .site-main .about-area .client {
+        background: #ffffff10;
+        box-shadow: var(--box-shadow);
+        margin: 3rem 0;
+    }
+    
+    .site-main .about-area .client .client-img {
+        padding: 2rem;
+    }
+    
+    .site-main .about-area .client .client-img:hover {
+        transform: scale(1.2);
+    }
+    
+    .site-main .about-area .client .about-client {
+        padding-top: 2rem;
+    }
+    
+    .site-main .about-area .client .about-client h4 {
+        font: normal 500 21px/20px var(--roboto);
+    }
+    
+    .site-main .about-area .client .about-client p {
+        font-size: 14px;
+    }
+    
+    .site-main .about-area .owl-carousel .owl-item {
+        display: flex;
+        justify-content: center;
+        padding: 0 1.5rem;
+    }
+    
+    .site-main .about-area .owl-carousel .owl-dots .owl-dot.active span {
+        background: var(--primary-color);
+        width: 12px;
+        height: 12px;
+    }
+    /* About me */
+    /* subscribe */
+    
+    .site-main .subscribe-us-area .subscribe {
+        background: url(../station.jpg) no-repeat;
+        padding: 10rem 0;
+        margin: 3rem auto;
+    }
+    
+    .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+        font: normal 700 30px/30px var(--roboto);
+        color: rgb(74, 70, 70)
+    }
+    
+    .site-main .subscribe-us-area .subscribe .subscribe-title p {
+        color: rgb(91, 82, 82);
+        padding: 1rem 4rem;
+    }
+    
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 400px;
+        padding: 1rem 1rem;
+        border: 1px solid grey;
+        background: transparent;
+        color: brown;
+        font: normal 500 17px/20px var(--roboto);
+    }
+    
+    .site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder {
+        color: brown;
+    }
+    
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        background: whitesmoke;
+        color: #000;
+        padding: .7rem 2rem;
+    }
+    /* subscribe area */
+    
+    footer.footer-area {
+        padding: 5rem 0;
+        background: url(./timothy-barlin-GX4YM64o49U-unsplash.jpg) no-repeat;
+    }
+    
+    footer.footer-area .follow {
+        color: white;
+        padding: 0 .4rem;
+    }
+    
+    footer.footer-area .rights {
+        justify-content: center;
+        font-family: linear-gradient(120deg, #448afa 0%, #c2e9fb 100%);
+    }
+    
+    footer.footer-area .rights h4 a {
+        color: lightgreen;
+    }
+    
+    footer.footer-area .move-up {
+        position: absolute;
+        right: 6%;
+        top: 50%;
+    }
+    
+    footer.footer-area .move-up span {
+        color: skyblue;
+    }
+    
+    footer.footer-area .move-up span:hover {
+        color: white;
+        cursor: pointer;
+    }

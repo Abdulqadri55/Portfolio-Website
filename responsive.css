@@ -1,0 +1,59 @@
+/* if the view port is equalto 34px or less than that */
+
+@media only screen and (max-width:340px) {
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p,
+    h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner .site-title .h {
+        font-size: 40px;
+    }
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 15rem !important;
+    }
+    .site-main>.services-area .services {
+        width: 13rem;
+    }
+}
+
+@media only screen and (max-width:792px) {
+    .site-main .about-area .about-title h2>span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .site-main .about-area .call-area {
+        padding-left: 3%;
+        padding-top: 1.5rem;
+        margin-left: 30%;
+    }
+    .site-main .about-area .about-title p {
+        padding: 0%;
+    }
+    .site-main .subscribe-us-area form .input-textbox input {
+        width: 20rem !important;
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width:1910px) {
+    .header_area .main-menu .navbar {
+        padding: 1rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4%;
+    }
+    footer.footer .container {
+        grid-template-columns: repeat(2, 25%);
+    }
+}
